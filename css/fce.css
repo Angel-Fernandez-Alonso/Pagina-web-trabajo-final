@@ -1,0 +1,18 @@
+			.container{
+		display: inline-block;
+                width: 400px;
+                height: 200px;
+                background-color: aquamarine;
+            }
+                        .container2{
+                display: inline-block;
+                width: 400px;
+                height: 250px;
+                background-color: aquamarine;
+            }
+                        .container3{
+                display: inline-block;
+                width: 400px;
+                height: 240px;
+                background-color: aquamarine;
+            }
