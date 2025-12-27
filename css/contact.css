@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    background-color: #abffb0;
+}
+
+.email {
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    background-color: #abffb0;
+}
+.Write {
+    display: inline-block;
+    width: 185px;
+    height: 20px;
+    background-color: #abffb0;
+}
+
+.Years {
+    display: grid;
+    width: 175px;
+    height: 20px;
+    background-color: #abffb0;}
+.Important {
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    background-color: #a53a3a;
+    color: white;
+}
+.error {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    background-color: #031e52;
+    color: white;
+}
