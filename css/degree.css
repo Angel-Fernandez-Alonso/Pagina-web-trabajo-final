@@ -1,18 +1,15 @@
 .first-year tr {
-    background-color: rgb(72, 238, 88);
+    background-color: #CFF5D2;
 }
 
 .second-year tr {
-    background-color: rgb(102, 0, 255);
-    color: white;
+    background-color:#D6E4FF;
 }
 
 .third-year tr {
-    background-color: rgb(233, 45, 214);
-    color: white;
+    background-color: #F3D1F4;
 }
 
 .fourth-year tr {
-    background-color: rgb(255, 0, 0);
-    color: white;
+    background-color: #FFE2C6;
 }
