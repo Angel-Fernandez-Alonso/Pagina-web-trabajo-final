@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: #B2D6FF;
+}
+.menu {
+    float: left;
+    width: 250px;
+    height: 300px;
+    background-color: #F09A9D;
+}
+.content {
+    float: left;
+    width: 650px;
+    height: 520px;
+    background-color: #F5CF8E;
+    padding: 20px;
+    line-height: 1.6;
+}
+.footer {
+    clear: both;
+    height: 400px;
+    background-color: #D6E9FE;
+}
