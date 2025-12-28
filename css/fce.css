@@ -1,18 +1,34 @@
-			.container{
-		display: inline-block;
-                width: 400px;
-                height: 200px;
-                background-color: aquamarine;
-            }
-                        .container2{
-                display: inline-block;
-                width: 400px;
-                height: 250px;
-                background-color: aquamarine;
-            }
-                        .container3{
-                display: inline-block;
-                width: 400px;
-                height: 240px;
-                background-color: aquamarine;
-            }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #DFF5EA;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #E6F2EF;
+}
