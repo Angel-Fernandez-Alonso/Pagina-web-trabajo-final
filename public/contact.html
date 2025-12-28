@@ -1,57 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact</title>
-    <link rel="stylesheet" href="../css/contact.css">
+	<meta charset="UTF-8">
+    	<title>Contact</title>
+    	<link rel="stylesheet" href="../css/contact.css">
 </head>
 
 <body>
-    <h1>Welcome!</h1>
-    <h3>In this page you will be able to contact me if you have any questions or requests.</h3>
+
+	<div class="contact-box">
+    	<h1>Contact Me</h1>
+	<p class="subtitle">
+	If you have any questions or requests, feel free to contact me using this form.
+    </p>
 
     <form>
-        <div class="container">
-        <label for="name">Name:</label><br>
-        </div>
-        <p></p>
-        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
 
-        <div class="email">
-        <label for="degree">Email:</label><br>
-        </div>
-        <p></p>
-        <input type="text" id="degree" name="degree"><br><br>
+        <label for="degree">Email</label>
+        <input type="text" id="email" name="email">
 
-        <div class="Write">
-        <label for="msg">Please, write what you want:</label><br>
-        </div>
-        <p></p>
-        <textarea id="msg" rows="4" cols="50"></textarea><br><br>
+        <label for="msg">Please, write what you want:</label>
+        <textarea id="msg" rows="4"></textarea>
 
-        <div class="Years">
-        <label>Select your year of studies:</label><br>
-        </div>
-        <input type="radio" id="option1" name="options">
-        <label for="option1">First Year</label><br>
+	<fieldset>
+        <label>Select your year of studies</label>
 
-        <input type="radio" id="option2" name="options">
-        <label for="option2">Second Year</label><br>
+	    <label><input type="radio" name="year"> First Year</label>
+            <label><input type="radio" name="year"> Second Year</label>
+            <label><input type="radio" name="year"> Third Year</label>
+            <label><input type="radio" name="year"> Fourth Year</label>
+            <label><input type="radio" name="year"> I'm a Teacher</label>
 
-        <input type="radio" id="option3" name="options1">
-        <label for="option3">Third Year</label><br>
+	</fieldset>
 
-        <input type="radio" id="option4" name="options">
-        <label for="option4">Fourth Year</label><br>
+        <label class="checkbox">
+            <input type="checkbox">
+            This message is important
+        </label>
 
-        <input type="radio" id="option5" name="options">
-        <label for="option5">I'm a Teacher</label><br><br>
+        <label for="myfile">Upload a screenshot (optional)</label>
+        <input type="file" id="myfile">
 
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <label for="subscribe">Please activate the checkbox if the message is <div class="Important">important</div></label><br><br>
+        <button type="submit">Send message</button>
 
-        <label for="myfile">If there is any <div class="error">error</div>, please upload a screenshot here:</label><br>
-        <input type="file" id="myfile" name="myfile"><br><br>
-        <button type="submit">Submit</button>
     </form>
+
+</div>
+
 </body>
 </html>
