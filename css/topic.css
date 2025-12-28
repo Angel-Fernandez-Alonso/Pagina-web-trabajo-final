@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #050b2e, #0a1a4f);
+    color: #e0e6ff;
+}
+
+/* Contenedor principal */
+.page {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #8fd3ff;
+    margin-bottom: 40px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: rgba(20, 40, 100, 0.6);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(100, 180, 255, 0.2);
+}
+
+/* Títulos */
+h2 {
+    color: #9bdcff;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+}
+
+/* Texto */
+p, li {
+    line-height: 1.6;
+}
